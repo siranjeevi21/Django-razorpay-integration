@@ -188,9 +188,10 @@ Similarly copy your test key and now open the _index.html_ file. There, in the d
 So, it’s all in-place now! Now run the server and pen Port 8000. A page like this (if you kept the same index.html styling) will appear.
 
 Fill the Name input and click on Pay with Razorpay. A checkout card will popup with 500 INR payment (_you can change this value and all other details of the card from the index.html file!_).
-![This is an image]()
+![This is an image](https://github.com/siranjeevi21/razorpay/blob/main/src/r2.PNG)
 Fill in a fake 10 digit mobile number and click on pay. Choose any payment method. Choose the success option by clicking the green button.
-![This is an image]()
+![This is an image](https://github.com/siranjeevi21/razorpay/blob/main/src/r3.PNG)
 You’ll be redirected to the success.html page-
-![This is an image]()
+![This is an image](https://github.com/siranjeevi21/razorpay/blob/main/src/r4.PNG)
 We have successfully implemented a payment gateway using Razorpay!
+### Thank you!
