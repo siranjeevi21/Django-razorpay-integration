@@ -1,4 +1,4 @@
-# DJANGO RAZORPAY INTEGRATION
+# DJANGO RAZORPAY INTEGRATION - DOCUMENTATION
 Here, we will see how to integrate a payment gateway using the Razorpay API in your Django Project
 
 ## STEP1 - SETUP
