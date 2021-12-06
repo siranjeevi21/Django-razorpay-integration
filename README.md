@@ -1,4 +1,4 @@
-# DJANGO RAZORPAY INTEGRATION
+# DJANGO RAZORPAY INTEGRATION - DOCUMENTATION
 Here, we will see how to integrate a payment gateway using the Razorpay API in your Django Project
 
 ## STEP1 - SETUP
@@ -182,10 +182,16 @@ And finally this code in your in base.html file to finish our templates.
 So, we are done with the initial set up. Let’s move on to the main stuff. Open this link https://dashboard.razorpay.com. Create an account or log in if you own one already. Open this link now https://dashboard.razorpay.com/app/keys to get your keys. We will need to copy the keys, both the secret key and the public key.
 
 Navigate to the views.py file and paste both the keys in the index view where specified (replace **TEST_KEY** and **SECRET_KEY** with your keys).
-
+![This is an image](https://github.com/siranjeevi21/razorpay/blob/main/src/razorpay1.PNG)
 Similarly copy your test key and now open the _index.html_ file. There, in the data-key variable, replace the **TEST_KEY** with your copied test key value.
+## STEP 3 – CHECKING OUR INTEGRATION
+So, it’s all in-place now! Now run the server and pen Port 8000. A page like this (if you kept the same index.html styling) will appear.
 
-
-
-
-
+Fill the Name input and click on Pay with Razorpay. A checkout card will popup with 500 INR payment (_you can change this value and all other details of the card from the index.html file!_).
+![This is an image](https://github.com/siranjeevi21/razorpay/blob/main/src/r2.PNG)
+Fill in a fake 10 digit mobile number and click on pay. Choose any payment method. Choose the success option by clicking the green button.
+![This is an image](https://github.com/siranjeevi21/razorpay/blob/main/src/r3.PNG)
+You’ll be redirected to the success.html page-
+![This is an image](https://github.com/siranjeevi21/razorpay/blob/main/src/r4.PNG)
+We have successfully implemented a payment gateway using Razorpay!
+### Thank you!
